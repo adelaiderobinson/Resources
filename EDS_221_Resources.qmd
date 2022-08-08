@@ -1,0 +1,27 @@
+---
+title: "Resources"
+format: html
+editor: visual
+---
+
+# Terminal
+
+The terminal in R studio is the same as the terminal outside r studio.
+
+Navigate to a folder that is version controlled and you can use git commands.
+
+pwd
+
+-   tells you where you are
+
+cd ..
+
+-   will take you back up one
+
+ls
+
+-   list all files
+
+cd
+
+-   sets working directory
