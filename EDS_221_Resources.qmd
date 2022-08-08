@@ -10,6 +10,14 @@ The terminal in R studio is the same as the terminal outside r studio.
 
 Navigate to a folder that is version controlled and you can use git commands.
 
+-   Git Add -A
+
+-   Git commit -m "important message"
+
+-   git push
+
+-   git status
+
 pwd
 
 -   tells you where you are
