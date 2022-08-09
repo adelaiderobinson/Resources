@@ -33,3 +33,61 @@ ls
 cd
 
 -   sets working directory
+
+# Here
+
+when you create a project it becomes your WD, then you can add folders within it
+
+here package allows you to easily navigate around R projects, without using file paths
+
+my_data \<- read_csv(here::here("data", "sb_temp.csv")
+
+all other files should be nested within your working directory, here always start without that topmost level
+
+you can also use here to save to here
+
+# General
+
+Packages can be published on cran or git hub
+
+here::here always you to call something from a package without loading it. Even if the package is loaded, Sometimes useful to write like this so you know what package the code is coming from.
+
+echo = true (shows the code)
+
+## Pipe Operator
+
+%\>% pipe operator or \|\>
+
+-    basically means and then, allows you to write code in the order you think about it.
+
+-   command shift m- shortcut
+
+# Names
+
+See eds 221 day 1 afternoon lecture slides for more: <https://docs.google.com/presentation/d/e/2PACX-1vTRRof4Xrv-cRnthwB2xPK6rtaAFS0WlaCxj4lo3kker2UQnwr9aEB1hiAEiTwfy7NDHXuhCA8wgBQ5/pub?start=false&loop=false&delayms=3000#slide=id.p>
+
+-   clear and meaningful, don't need a glossary to know what they contain
+
+-   consistent
+
+    -   choose a convention and stick with it for data frames, objects and meaningful suffixes
+
+-   concise
+
+    -   balance meaningful w/concise. goal is abbreviated but descriptive.
+
+-   code and coder friendly
+
+    -   no punctuation, avoid spaces, don't start object names w/numbers, pick and be consistent with a choice of case
+
+consider making object name nouns and function names verbs
+
+objects should not have - b/c it could be confused with a minus sign, is best
+
+# Tidyverse Style
+
+never a space before a comma, press return and indent after a comma, for regular functions no space before or after parentheses, use TRUE and FALSE (not t and f)
+
+# Parsing errors
+
+r will make its best guess about the class of a column, but eventually it could be different. Usually an issue with how r is assuming the data should be stored. If you run problems it will tell you the line w/the issue.
